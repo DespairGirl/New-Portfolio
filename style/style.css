@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    background-image: url(Pics/back.png);
+}
+
+#pro-body, #skills-body{
+    color: crimson;
+    background-color: slategrey;
+}
+
+#pro-style,#skill-style{
+    background-color: chartreuse;
+}
+#about-me{
+    background-color: slategrey;
+}
+
+.header{
+    padding: 30px;
+    text-align: center;
+    background: chartreuse;
+    width: 100%;
+}
+
+.row{
+    margin-top: 150px;
+}
+
+img{
+    
+    width: 100%;
+    height: 15em;
+}
+
+#my-image{
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+    height: 15em;
+    
+}
+#skills-img, #projects-img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 18em;
+    height: 18em;
+}
+
+.footer{
+    margin-top: 20px;
+    padding: 30px;
+    text-align: center;
+    background-color:chartreuse;
+    width: 100%;
+}
+
+
+
