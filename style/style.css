@@ -6,17 +6,37 @@ body{
     padding: 10px;
     background-image: url(Pics/back.png);
 }
-
-#pro-body, #skills-body{
-    color: crimson;
-    background-color: slategrey;
+#header-text{
+    font-size: x-large;
+    font-weight: bold;
 }
 
+#pro-body, #skills-body{
+    color: black;
+    background-color: slategrey;
+    font-size: large;
+}
+.btn{
+    color:crimson;
+    background-color: chartreuse;
+    font-weight: bolder;
+}
 #pro-style,#skill-style{
     background-color: chartreuse;
 }
 #about-me{
     background-color: slategrey;
+}
+#about-title{
+    text-align: center;
+    font-size: x-large;
+    color:black;
+    font-weight: bolder;
+}
+#about-p{
+    font-size: large;
+    color:black;
+    font-style: italic;
 }
 
 .header{

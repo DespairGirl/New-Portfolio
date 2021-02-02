@@ -1,10 +1,12 @@
 * {
     box-sizing: border-box;
+    
 }
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 10px;
     background-image: url(Pics/back.png);
+    
 }
 
 .header{
@@ -12,15 +14,29 @@ body{
     text-align: center;
     background: maroon;
     width: 100%;
+    color:whitesmoke;
+    font-size:x-large;
 }
 
 #projects{
     margin-top: 30px;
-}
+color:whitesmoke;
+font-size:larger ;}
 
+#pro2{
+    background-color: grey;
+    color: whitesmoke;
+}
 #pro3{
     margin-top: 20px;
+    background-color: grey;
+    color:whitesmoke;
 }
+
+#pro1-body,#pro2-body, #pro3-body{
+    background-color: maroon;
+}
+
  #pro1-img{
      width: 100%;
      height: 50%;
@@ -31,6 +47,21 @@ body{
      height: 25%;
  }
 
+#skills,#fun{
+    background-color: maroon;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+.list-group-item , .list-group-item list-group-item-action {
+    background-color: lightgray;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+}
+
+
+
  
 
 .footer{
@@ -39,4 +70,10 @@ body{
     text-align: center;
     background-color:maroon;
     width: 100%;
+    color:whitesmoke;
+}
+
+a{
+    color: slateblue;
+    font-weight: bolder;
 }
