@@ -37,12 +37,12 @@ font-size:larger ;}
     background-color: maroon;
 }
 
- #pro1-img{
+ #pro1-img, #pro2-img{
      width: 100%;
      height: 50%;
  }
 
- #pro2-img, #pro3-img{
+    #pro3-img{
      width: 25%;
      height: 25%;
  }
